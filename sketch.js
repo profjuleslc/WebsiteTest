@@ -8,11 +8,11 @@ function draw() {
   // put drawing code here
   background(255);
   ellipse(20, 20, mouseX, mouseY);
+}
 
-
-  if(keyPressed) {
-    if(keyCode == SHIFT) {
+function keyPressed() {
+  if(keyCode == SHIFT) {
   window.open("https://profjuleslc.github.io/WebsiteTest/nextTest/index.html");
   }
 }
-}
+
